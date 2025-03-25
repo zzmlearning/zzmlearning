@@ -1,12 +1,12 @@
 {
   "htmlElements": {
     "tags": [
-      "?xml",
       "a",
       "article",
       "body",
       "button",
       "circle",
+      "defs",
       "div",
       "em",
       "footer",
@@ -26,11 +26,7 @@
       "ol",
       "p",
       "path",
-      "polygon",
       "radialgradient",
-      "rb",
-      "rt",
-      "ruby",
       "script",
       "section",
       "span",
@@ -185,8 +181,6 @@
       "skills-wrapper",
       "sm:h-64",
       "sm:px-0",
-      "st0",
-      "st1",
       "text-1xl",
       "text-2xl",
       "text-3xl",
@@ -219,7 +213,8 @@
       "z-10"
     ],
     "ids": [
-      "Layer_1",
+      "deviconMatlab0",
+      "deviconMatlab1",
       "deviconPython0",
       "deviconPython1",
       "deviconPython2",

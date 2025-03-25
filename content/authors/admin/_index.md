@@ -1,79 +1,79 @@
 ---
 # Display name
-title: 吳健雄
+title: ZHANG MIN
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+#name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Min 
+last_name: Zhang
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 😄
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: PhD Student at UoW
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Warwick
+    url: https://warwick.ac.uk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:m.zhang42289@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  #- icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Computer Science
+    institution: University of Warwick
+    date_start: 2023-10-02
+    date_end: ''
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Thesis on _Scalable Ranking on Large Graph_. Supervised by [Prof Weiren Yu](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    #button:
+    #  text: 'Read Thesis'
+    #  url: 'https://example.com'
+  - area: MSc Financial Technology
+    institution: Imperial College London
+    date_start: 2020-09-01
+    date_end: 2021-11-30
     summary: |
-      GPA: 3.8/4.0
+     Distinction
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BSc (Honors) Computer Science
+    institution: University of Liverpool
+    date_start: 2018-09-28
+    date_end: 2020-07-15
     summary: |
-      GPA: 3.4/4.0
+      1st Class
       
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Financial Technology Product Manager
+    company_name: Mingsheng Banking
     company_url: ''
     company_logo: ''
     date_start: 2021-01-01
@@ -106,12 +106,12 @@ skills:
         icon: devicon/python
       - name: RStudio
         description: ''
-        percent: 100
+        percent: 50
         icon: devicon/rstudio
-      - name: PyTorch
+      - name: Matlab
         description: ''
-        percent: 40
-        icon: devicon/pytorch
+        percent: 80
+        icon: devicon/matlab
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -120,22 +120,20 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
+      #- name: Cats
+      #  description: ''
+       # percent: 100
+      #  icon: cat
       - name: Photography
         description: ''
         percent: 80
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -145,15 +143,15 @@ awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+    awarder: NVIDIA
+    icon: nvidia
     summary: |
       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
   - title: Blockchain Fundamentals
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
-    icon: edx
+    icon: cfa
     summary: |
       Learned:
       - Synthesize your own blockchain solutions
