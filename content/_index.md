@@ -15,9 +15,9 @@ sections:
     content:
       username: admin
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Resume
-        url: /static/uploads/CV.pdf
+      #button:
+      #  text: Download Resume
+      #  url: /static/uploads/CV.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -25,6 +25,29 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
+  - block: markdown
+    content:
+      username: admin
+      title: News
+      text: |
+        **2026-01** 🧠 Participated in the **Alan Turing Institute Data Study Group (DSG)**.
+
+        **2025-09** 🤝 Served as a **Volunteer for PVLDB**.
+
+        **2025-04** 🎉 Paper accepted at **SIGIR 2025**.
+
+        **2024-05** 🏆 Won CFA China Future Financial Analyst Competition.
+      design:
+        columns: '1'
+  - block: collection
+    content:
+      title: Publications
+      page_type: publication
+      count: 20
+      sort_by: date
+      sort_ascending: false
+    design:
+      view: citation
   - block: experience
     content:
       username: admin
